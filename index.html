@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7eee8">
+  <meta name="description" content="A little corner of the internet for our favorite love story.">
+  <title>Our Anniversary — Forever & Always</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&family=Lora:wght@400;500&family=Noto+Sans+Khmer:wght@400;600&family=Noto+Serif+Khmer:wght@400;600&family=Parisienne&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient-glow glow-one" aria-hidden="true"></div>
+  <div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Back to top">LONG <span>♥</span> YANA</a>
+    <nav id="main-menu" aria-label="Main navigation">
+      <a href="#story">Our story</a>
+      <a href="#memories">Memories</a>
+      <a href="#letter">My letter</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-menu">
+      <i></i><i></i><i></i>
+    </button>
+    <div class="language-switcher" role="group" aria-label="Choose language">
+      <button class="lang-button active" type="button" data-lang="en" aria-pressed="true">EN</button>
+      <span></span>
+      <button class="lang-button" type="button" data-lang="km" aria-pressed="false">ខ្មែរ</button>
+    </div>
+    <button class="sound-button" type="button" aria-label="Open our song on YouTube" title="Listen to our song on YouTube">
+      <span class="sound-bars"><i></i><i></i><i></i></span>
+      <span class="sound-label">Our song</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <svg class="botanical botanical-left" viewBox="0 0 210 420" aria-hidden="true">
+        <path
+          d="M24 412C63 316 91 222 96 20M86 80c-40 4-63 24-72 56 40 1 66-16 77-47M91 145c38-3 70 12 91 45-42 8-72-4-89-35M72 217c-35 6-57 28-65 62 38-1 62-19 72-52M55 290c35-1 64 16 83 48-38 6-65-7-81-38" />
+      </svg>
+      <svg class="botanical botanical-right" viewBox="0 0 210 420" aria-hidden="true">
+        <path
+          d="M24 412C63 316 91 222 96 20M86 80c-40 4-63 24-72 56 40 1 66-16 77-47M91 145c38-3 70 12 91 45-42 8-72-4-89-35M72 217c-35 6-57 28-65 62 38-1 62-19 72-52M55 290c35-1 64 16 83 48-38 6-65-7-81-38" />
+      </svg>
+      <div class="floating-heart heart-one">♥</div>
+      <div class="floating-heart heart-two">♥</div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">CELEBRATING OUR LOVE · SINCE 2025</p>
+        <h1>Still choosing<br><em>you.</em></h1>
+        <p class="intro">Every day with you feels like a page from my favorite story.<br>Here’s to everything we’ve
+          lived—and everything still to come.</p>
+        <a class="button" href="#story">Walk down memory lane <span>↓</span></a>
+      </div>
+      <div class="hero-art reveal" aria-label="A romantic polaroid frame">
+        <div class="arch"></div>
+        <div class="photo-shadow"></div>
+        <div class="polaroid main-photo">
+          <div class="photo-fill photo-one">
+            <video class="favorite-video" autoplay muted loop playsinline preload="metadata"
+              aria-label="Our favorite memory">
+              <source src="IMG_1873.mp4" type="video/mp4">
+            </video>
+          </div>
+          <p>you & me, always ♡</p>
+        </div>
+        <div class="date-stamp"><strong>01</strong><span>YEARS<br>OF US</span></div>
+      </div>
+      <p class="scroll-cue">SCROLL TO REMEMBER <span></span></p>
+    </section>
+
+    <section class="love-quote" aria-label="Love quote">
+      <span>❦</span>
+      <blockquote>“In all the world, there is no heart for me like yours.”</blockquote>
+      <p>— MAYA ANGELOU</p>
+    </section>
+
+    <section class="countdown-section" aria-label="Anniversary countdown">
+      <p class="script">Until our next chapter</p>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">000</strong><span>Days</span></div>
+        <b>:</b>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <b>:</b>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <b>:</b>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+      <p class="countdown-date">UNTIL AUGUST 11, 2026</p>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-heading reveal">
+        <p class="eyebrow">HOW IT ALL BEGAN</p>
+        <h2>Our little <em>love story</em></h2>
+        <p>Some moments quietly change everything. These are a few of ours.</p>
+      </div>
+      <div class="timeline">
+        <article class="moment reveal">
+          <div class="moment-number">01</div>
+          <p class="moment-date">January 17, 2024</p>
+          <h3>The day we met</h3>
+          <p>We met at SETEC Institute, and from the very first time I saw you, I somehow knew that my life was about to
+            change.You were so beautiful in my eyes, and there was something about you that I couldn't forget. That
+            first feeling was so special to me, and no one could ever replace it.Even now, I still remember the way I
+            felt when I first saw you.</p>
+        </article>
+        <article class="moment reveal">
+          <div class="moment-number">02</div>
+          <p class="moment-date">July 19, 2025</p>
+          <h3>Felling in love </h3>
+          <p>On this day, we had an assignment for our SP subject. We went to Oudong together to film a music video for
+            the song “REAN JOB.” It became one of those special memories that I still remember.You looked so beautiful
+            in your school uniform. There was something so special about seeing you like that, and in my eyes, you were
+            the most beautiful girl after my mother.</p>
+        </article>
+        <article class="moment reveal">
+          <div class="moment-number">03</div>
+          <p class="moment-date">April 30, 2025</p>
+          <h3>First Chat </h3>
+          <p>The first time we chatted, everything felt so natural and fun. I couldn't stop smiling after our
+            conversation.It all started when I replied to your story and said, “Jom, sahav mles!” Then you replied to me
+            with just one word, “ស្ទាវ” </p>
+        </article>
+        <article class="moment reveal">
+          <div class="moment-number">04</div>
+          <p class="moment-date">August 11, 2025</p>
+          <h3>Confess my love</h3>
+          <p>I still remember the day I finally found the courage to confess my feelings to you.From the first time I
+            saw you at SETEC Institute, there was something about you that caught my attention. As we started talking
+            and spending more time together, my feelings for you slowly grew stronger. I was nervous because I didn't
+            know how you would feel about me, but I knew I couldn't keep my feelings hidden anymore. So, I decided to
+            tell you the truth—I liked you, and I wanted you to know how special you had become to me.That confession
+            wasn't just me saying “I like you.” It was me taking a chance on someone who had already become an important
+            part of my heart.</p>
+        </article>
+        <article class="moment reveal">
+          <div class="moment-number">∞</div>
+          <p class="moment-date">TODAY & EVERY DAY</p>
+          <h3>Still falling</h3>
+          <p>Today, tomorrow, and every day, I will continue to love you—anytime and anywhere.Even though sometimes we
+            have problems, misunderstandings, or difficult moments, my feelings for you are still the same. A
+            relationship may not always be perfect, but I still choose you.No matter what we go through, I hope we can
+            understand each other, forgive each other, and grow together. Through the good days and the difficult ones,
+            I want you to know that you are still the person I love.I hope we can stay together for a long time, no
+            matter what challenges come into our lives. I want us to keep choosing each other, supporting each other,
+            and growing together through every chapter of our journey.And one day, I hope our love will lead us to
+            marriage. I want to build a future with you, create a family together, and grow old by your side.From the
+            day I first fell for you until the future we haven't reached yet, I hope it will always be you and me.</p>
+        </article>
+      </div>
+    </section>
+    <section class="memories section" id="memories">
+      <div class="section-heading light reveal">
+        <p class="eyebrow">A FEW FAVORITE MOMENTS</p>
+        <h2>Life looks better<br><em>with you in it.</em></h2>
+      </div>
+      <div class="gallery reveal">
+        <figure class="polaroid tilt-left">
+          <div class="photo-fill photo-two"><img src="long.jpg" alt="Long — one of our favorite memories"></div>
+          <figcaption>our happy place</figcaption>
+        </figure>
+        <figure class="polaroid featured">
+          <div class="photo-fill photo-three"><img src="car.jpg" alt="long-yana carton"> </div>
+          <figcaption>the best kind of days ♡</figcaption>
+        </figure>
+        <figure class="polaroid tilt-right">
+          <div class="photo-fill photo-four"><img src="yana.jpg" alt="Yana — one of our favorite memories"></div>
+          <figcaption>the moments we share</figcaption>
+        </figure>
+      </div>
+      <p class="gallery-note">Replace the colored placeholders with your own photos to make this page truly yours.</p>
+      <div class="album-preview reveal">
+        <div class="album-stack" aria-hidden="true">
+          <img src="1.jpg" alt=""><img src="2.jpg" alt=""><img src="3.jpg" alt=""><img src="4.jpg" alt="">
+        </div>
+        <div class="album-copy">
+          <p class="eyebrow">OUR PHOTO ALBUM</p>
+          <h3>Every picture tells<br>a part of <em>our story.</em></h3>
+          <p>All our smiles, adventures, and little moments—kept together in one special place.</p>
+          <button class="view-album-button" type="button"><span>View all photos</span><b>16</b></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="reasons section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">JUST A FEW OF THE MILLION</p>
+        <h2>Reasons I love you</h2>
+      </div>
+      <div class="reason-grid">
+        <article class="reason reveal"><span>01</span>
+          <h3>Your kindness</h3>
+          <p>You are such a kind and caring person. I love how you always care about the people around you and think about others, not just yourself.One thing that makes me feel especially loved is that whenever you want to do something, you often ask me about it first and want to know what I think. Even though you don't always need my permission, it makes me feel respected and important to you.These little things may seem simple, but they are some of the reasons why you are so special to me.</p>
+        </article>
+        <article class="reason reveal"><span>02</span>
+          <h3>Your Smile</h3>
+          <p>Your smile is one of my favorite things about you. Every time I see you smile, it makes me happy too. No matter how difficult my day has been, seeing your smile can somehow make everything feel a little better. <br>
+          I hope you always keep that beautiful smile, because it is one of the things that made me fall in love with you.</p>
+        </article>
+        <article class="reason reveal"><span>03</span>
+          <h3>You feel like home to me</h3>
+          <p>Whenever I'm with you, I feel like I'm at my second home. It's not about a place—it's about the feeling you give me.<br>When I'm beside you, I feel comfortable, peaceful, and safe. I can be myself without pretending to be someone else. Your presence gives me a kind of warmth that is difficult to explain. </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="letter section" id="letter">
+      <div class="petals" aria-hidden="true"><i>❀</i><i>❀</i><i>❀</i><i>❀</i></div>
+      <div class="letter-card reveal">
+        <span class="wax-seal">♥</span>
+        <p class="eyebrow">A NOTE FROM MY HEART</p>
+        <h2>My dearest,</h2>
+        <div class="letter-body">
+          <P> Happy 1 Year Anniversary, My Love! ❤️<br><br>
+
+            It has already been one year since we started this beautiful journey together. Looking back at everything
+            we've shared—from the first time I saw you, our first conversation, the moments that made us laugh, and all
+            the memories we've created together—I feel so lucky to have you in my life.
+
+            This year hasn't always been perfect. Sometimes we've had problems, misunderstandings, and difficult
+            moments. But through everything, my feelings for you have never changed. Every challenge has taught me more
+            about you, about us, and about how important our relationship is to me.
+
+            Thank you for staying by my side, for making me smile, for sharing your time with me, and for giving me so
+            many beautiful memories. You are not only someone I love; you are someone I want to keep beside me as we
+            continue growing together.
+
+            One year is only the beginning of our story. I hope we can celebrate our 2nd, 3rd, 5th, 10th, and many more
+            anniversaries together. I hope that one day, the love we have today will lead us to marriage, a family of
+            our own, and a beautiful life together. 💍❤️
+
+            No matter where life takes us, I hope we continue choosing each other, supporting each other, forgiving each
+            other, and holding each other's hands through both the good and difficult days.
+
+            Thank you for this beautiful first year, my love.
+
+            I loved you yesterday, I love you today, and I hope I will have the chance to love you for all the tomorrows
+            to come.
+
+            Happy 1 Year Anniversary to us. ❤️♾️</P>
+        </div>
+        <p class="signature">Forever yours,</p>
+        <p class="signed-name">HONGLY LONG</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-heart">♥</div>
+    <p>Made with all my love, just for you.</p>
+    <span>OUR ANNIVERSARY · 2026</span>
+  </footer>
+
+  <div class="album-modal" id="album-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Our photo album">
+    <div class="album-modal-bar"><div><span>OUR MEMORIES</span><strong>Photo album</strong></div><button class="album-close" type="button" aria-label="Close photo album">×</button></div>
+    <div class="album-grid">
+      <button type="button" data-index="0"><img src="1.jpg" alt="Our memory 1" loading="lazy"></button><button type="button" data-index="1"><img src="2.jpg" alt="Our memory 2" loading="lazy"></button><button type="button" data-index="2"><img src="3.jpg" alt="Our memory 3" loading="lazy"></button><button type="button" data-index="3"><img src="4.jpg" alt="Our memory 4" loading="lazy"></button><button type="button" data-index="4"><img src="5.jpg" alt="Our memory 5" loading="lazy"></button><button type="button" data-index="5"><img src="6.jpg" alt="Our memory 6" loading="lazy"></button><button type="button" data-index="6"><img src="7.jpg" alt="Our memory 7" loading="lazy"></button><button type="button" data-index="7"><img src="8.jpg" alt="Our memory 8" loading="lazy"></button><button type="button" data-index="8"><img src="9.jpg" alt="Our memory 9" loading="lazy"></button><button type="button" data-index="9"><img src="10.jpg" alt="Our memory 10" loading="lazy"></button><button type="button" data-index="10"><img src="11.jpg" alt="Our memory 11" loading="lazy"></button><button type="button" data-index="11"><img src="12.jpg" alt="Our memory 12" loading="lazy"></button><button type="button" data-index="12"><img src="car.jpg" alt="Our car memory" loading="lazy"></button><button type="button" data-index="13"><img src="long.jpg" alt="Long" loading="lazy"></button><button type="button" data-index="14"><img src="yana.jpg" alt="Yana" loading="lazy"></button>
+    </div>
+    <div class="photo-viewer" aria-hidden="true">
+      <button class="viewer-back" type="button">← <span>All photos</span></button><button class="viewer-arrow viewer-prev" type="button" aria-label="Previous photo">‹</button>
+      <figure><img src="1.jpg" alt="Selected album memory"><figcaption><span>01</span> / <b class="album-total">16</b></figcaption></figure>
+      <button class="viewer-arrow viewer-next" type="button" aria-label="Next photo">›</button>
+    </div>
+  </div>
+
+  <audio id="our-song" loop preload="metadata">
+    <source src="All3rgy - មង្គលការ [Official Music Video].mp4" type="video/mp4">
+  </audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
